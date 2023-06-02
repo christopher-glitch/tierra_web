@@ -20,7 +20,7 @@ function Header(){
 			<div className="container flex mx-auto p-5 items-center">
 				<Link to={'/'}>
 					<div className="flex items-center">
-						<img src={icon} className="icon" alt="logo" />
+						<img src={icon} className="icon drop-shadow-lg" alt="logo" />
 						<span className='p-3 font-bassa text-3xl text-gray-800 dark:text-white'> 𖫦𖫣𖫫𖫰𖫞𖫞𖫭𖫰 </span>
 					</div>
 				</Link>

@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Discography from './Pages/Discography';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path={"/about"} element={<About />} />
           <Route path={"/discography"} element={<Discography />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

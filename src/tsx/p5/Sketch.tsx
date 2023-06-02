@@ -74,7 +74,7 @@ export const sketch = (p: p5) => {
 	};
 
 	p.windowResized = () => {
-		p.resizeCanvas(1000, 580);
+		p.resizeCanvas(p.windowWidth, 580);
 		centerX = p.width / 2;
 		centerY = p.height / 2;
 		p.translate(centerX, centerY);

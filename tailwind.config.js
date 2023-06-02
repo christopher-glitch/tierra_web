@@ -22,6 +22,9 @@ module.exports = withMT({
       },
       backgroundImage: {
         'system': "url('../images/system.png')",
+      },
+      variants: {
+        visibility: ['responsive', 'hover', 'focus', 'group-hover']
       }
     },
   },
