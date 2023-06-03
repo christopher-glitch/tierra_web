@@ -11,7 +11,7 @@ function Discography() {
 				<p className="font-orbitron text-5xl text-black my-auto backdrop-brightness-125">Discography</p>
 			</div>
 			<div className="bg-white shadow-[1px_0px_12px_2px_#808080] z-0 pb-11 h-full">
-				<div className="mt-7 p-4 text-center">
+				<div className="p-10 text-center">
 					<p className='m-8 font-orbitron text-3xl text-gray-800'> Compilation </p>
 				</div>
 				<div className="lg:flex mx-auto justify-center container p-9">
