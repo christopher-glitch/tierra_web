@@ -16,15 +16,15 @@ function Header(){
 	const drawerClose = () => setOpen(false);
 
 	return (
-		<header className="shadow-[0px_1px_12px_2px_#808080] w-screen bg-[#FFFFFF] dark:bg-[#040413]">
+		<header className="shadow-[0px_1px_12px_2px_#808080] w-screen bg-[#FFFFFF]">
 			<div className="container flex mx-auto p-5 items-center">
 				<Link to={'/'}>
 					<div className="flex items-center">
 						<img src={icon} className="icon drop-shadow-lg" alt="logo" />
-						<span className='p-3 font-bassa text-3xl text-gray-800 dark:text-white'> 𖫦𖫣𖫫𖫰𖫞𖫞𖫭𖫰 </span>
+						<span className='p-3 font-bassa text-3xl text-gray-800'> 𖫦𖫣𖫫𖫰𖫞𖫞𖫭𖫰 </span>
 					</div>
 				</Link>
-				<nav className='text-gray-600 dark:text-gray-300 ml-auto invisible lg:visible '>
+				<nav className='text-gray-600 ml-auto invisible lg:visible '>
 					<Link to={'/'} className='mr-7 text-xl font-orbitron hover-underline-animation'> Home </Link>
 					<Link to={'/about'} className='mr-7 text-xl font-orbitron hover-underline-animation'> About </Link>
 					<Link to={'/discography'} className='mr-7 text-xl font-orbitron hover-underline-animation'> Discography </Link>
@@ -42,7 +42,7 @@ function Header(){
 					placement="right"
 					open={open}
 					onClose={drawerClose}
-					className="p-4 bg-[#FFFFFF] dark:bg-[#040413]"
+					className="p-4 bg-[#FFFFFF]"
 				>
 					<div className="mb-6 flex items-center justify-between">
 						<text className='text-xl font-orbitron font-extrabold text-gray-900'  >
